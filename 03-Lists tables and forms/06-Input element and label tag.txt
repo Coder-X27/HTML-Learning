@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel form for a trip</h1>
+        <!-- here in the form we have to write the backend action which is going to perform 
+        The technique which is going to be used for the backend performance for example in this php is going to be the backend-->
+        <form action="form.php">
+            <!-- input is used that what we are going to enter whether its a text or what
+            placeholder is the thing in which there will be a dialouge box appears and then there will be written the content that we entered and it become transparent when we start write something. -->
+            <input type="text" placeholder="Enter your name">
+            <br>
+            <!-- label is the thing in which it will make a check in dialouge box.
+            for is the word which makes sections for clicking use.
+            here the radio is the tag from which we can click whether on a single word.
+            value is the value which is there.
+            name is the name of that particular label which is going to be used in the backend for searching the type of label in the form.
+            Id is the form id . -->
+            <label for="sectionida">
+                <input type="radio" value="section a" name="section" id="sectionda">Section A
+            </label>
+            <br>
+            <label for="sectionidb">
+                <input type="radio" value="section b" name="section" id="sectionidb">Section B
+            </label>
+            <br>
+            <label for="sectionidc">
+                    <input type="radio" value="section b" name="section" id="sectionidc" class="red blue">Section C
+            </label>
+            <br>
+            <!-- checkbox is used to make a square box appears in this we can check or uncheck it depends on us. -->
+            <input type="checkbox" name="canteen" id="FoodCanteen" class="red">
+            <label for="foodcanteen">Want Food Canteen Card</label>
+            <!-- text area is the area in which we can write the things that we wanted to . -->
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain why you wanted to join"></textarea>
+        </form>
+    </div>
+</body>
+</html>

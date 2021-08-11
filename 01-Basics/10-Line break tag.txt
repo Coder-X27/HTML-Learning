@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>List of books to read</h1>
+    <h2>This is the 2nd heading </h2>
+    <h3>This is the 3rd heading </h3>
+    <h4>This is the 4th heading </h4>
+    <h5>This is the 5th heading </h5>
+    <h6>This is the 6th heading </h6>
+    <p>There are a lot of books to read</p>
+    <!-- example of absolute link -->
+    <a href="https://codewithharry.com">Karan Sharma</a>
+    <!-- example of Relative link .This can be used when you are under your own server -->
+    <a href="/trial.htm">Go to about</a>
+
+    <!-- If you wanted to add images to your page then you have to use img tag into it and in the src you have to enter the link of that image of which you wanted to show inthe server .
+The alt tag is the alternative tag in which if in case the src tag not work then the alt tag wil show the alternative image or message to the user who is browsing our website. -->
+    <img src="copied url of the image" alt="HUMAN IMAGE">
+    <!-- download the image and name it as image.jfif and save it on your pc
+    and made a new image tab to replicate the image and when you click on the link of the image then you will see the image as image.jfif inspite of the url of the image from which it was extracted. -->
+    <img src="/image.jfif" alt="HUMAN IMAGE">
+
+    <!-- Bold italic and underline tags -->
+    <br>
+    <b>This is bold </b>
+    <br>
+    <i>This is italic</i>
+    <br>
+    <u>This is underline</u>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- This  is a basic page layout for the website
+    Here the header tag is used for the navigation  -->
+    <header>
+        <!-- <p>This is the header</p> -->
+        <nav>
+            Home About
+        </nav>
+    </header>
+    <!-- here the section is used to make a particular page reserved in the page layout The "target main" is used to open that particular anchor in a new tab. -->
+
+    <main>
+        <!-- <p>This is the main content</p> -->
+        <section><a href="https://codewithharry.com" target="_main">Karan website</a></section>
+    </main>
+    <footer>
+        <p>This is footer</p>
+    </footer>
+</body>
+
+</html>

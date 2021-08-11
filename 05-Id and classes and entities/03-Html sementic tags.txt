@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semantic Tags</title>
+</head>
+
+<body>
+    <h3>Summary elements</h3>
+    <details>
+        <summary>
+            I have the keys but no doors.
+        </summary>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A similique cumque accusantium nisi expedita quam commodi magni sunt explicabo unde. Inventore doloremque sit repudiandae! Blanditiis, mollitia veritatis esse dicta aliquam quisquam iusto. Impedit
+        quaerat et sit aliquid. Praesentium fugiat et, magni ratione distinctio itaque voluptatum aliquid in tenetur nisi asperiores odit voluptate nam voluptates, unde sed dolores illo ullam? Distinctio, commodi enim et neque tempora voluptas eos harum
+        qui nostrum fugit! Adipisci nostrum impedit cum eaque dolore doloremque numquam reiciendis? Dolor eius, asperiores eveniet, facilis eum officiis repudiandae fugiat similique vero dicta possimus. Cupiditate fuga omnis veritatis assumenda nobis
+        corrupti?
+    </details>
+</body>
+
+</html>

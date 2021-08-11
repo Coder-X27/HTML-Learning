@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+
+<body>
+    <!-- in place of square we can place circle or any other genuine pair of list by using the type tag-->
+    <!-- this is the unordered list it makes the list without any number -->
+    <ul type="square">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact me</li>
+        <li>Services</li>
+    </ul>
+    <!-- This is the ordered list in which there will be numbering i.e., i,ii,iii......or A,B,C.....or roman numbering this type of thing can be done by the type tag -->
+    <ol type="i">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact me</li>
+        <li>Services</li>
+    </ol>
+</body>
+
+</html>

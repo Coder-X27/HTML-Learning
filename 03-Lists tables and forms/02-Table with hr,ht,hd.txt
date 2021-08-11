@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <div>
+        <!-- here in table the TR represents the table row which is going to be made. TD is the table data that the user is going to enter. TH is the table heading for which you have to enter the data in or the data will be shown under these headings. The headings will be bold without adding any of the bold tag in it. -->
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Score</th>
+                <th>Game</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Karan</td>
+                <td>49</td>
+                <td>PUBG</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sachin</td>
+                <td>23</td>
+                <td>Cricket</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Virat</td>
+                <td>100</td>
+                <td>PUBG</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

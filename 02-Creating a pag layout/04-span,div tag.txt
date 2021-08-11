@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- This  is a basic page layout for the website
+    Here the header tag is used for the navigation  -->
+    <header>
+        <!-- <p>This is the header</p> -->
+        <nav>
+            Home About
+        </nav>
+    </header>
+    <!-- here the section is used to make a particular page reserved in the page layout The "target main" is used to open that particular anchor in a new tab.
+    here we can add the image also from which we can go to the other tab now we have to set the height and width of the image  . If we set both the height and width of the image then the aspect ratio of the image will get disbalance .What we can do is we have to set only one of them whether its height or width and the other thing will automatically set up by the vs code. -->
+    <main>
+        <!-- <p>This is the main content</p> -->
+        <section>
+            <a href="https://codewithharry.com" target="_main"><img src="image link" alt="This is a trial version" width="121" height="54"></a>
+        </section>
+        <section>
+            div
+            <!-- here div is a container in which we can store anything which is going to be  in a section -->
+            <div>
+                <h1>Why love HTML</h1>
+                <p>HTML is a very good language and we can make several things with the help of this language</p>
+            </div>
+            <div>
+                <h1>Why use bootstrap</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit praesentium aut.</p>
+            </div>
+            <!-- Paragraph is a block element while the span is a inline element it takes the space of a particular size while the paragraph will take the space of the whole line. -->
+            <span>
+                I am a span tag
+                <br>
+                <br>
+            </span>
+            <span>
+                I am another span   
+            </span>
+        </section>
+    </main>
+    <footer>
+        <p>This is footer</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <!-- here the colspan will takes the place of the name and the score and the data of the all 3 of the head will be displayed under the game section  -->
+                    <th>S.No</th>
+                    <!-- <th>Name</th> -->
+                    <!-- <th>Scor  e</th> -->
+                    <th colspan="3">Game </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Karan</td>
+                    <td>49</td>
+                    <td>PUBG</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sachin</td>
+                    <td>23</td>
+                    <td>Cricket</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Virat</td>
+                    <td>100</td>
+                    <td>PUBG</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
